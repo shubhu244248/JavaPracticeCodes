@@ -2,7 +2,7 @@ package com.lbp.java;
 
 import java.util.Scanner;
 
-public class Code6_DigitToNumbers {
+public class Code6_NumberToDigit {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,8 +18,7 @@ public class Code6_DigitToNumbers {
 		while(Digit != 0) {
 			int last = Digit % 10;
 			System.out.print(last+" ");
-			int remaining = Digit;
-			remaining = remaining / 10;
+			int remaining = Digit / 10;
 			Digit = remaining;
 		}
 	}
