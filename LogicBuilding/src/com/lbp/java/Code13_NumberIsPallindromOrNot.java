@@ -13,7 +13,6 @@ public class Code13_NumberIsPallindromOrNot {
 //		int digOcc = sc.nextInt();
 		int last = 0;
 		int remaining = num;
-		int count =0;
 		int rev = 0;
 		while(remaining != 0 ) {
 			last = remaining % 10 ;
