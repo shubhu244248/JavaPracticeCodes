@@ -19,3 +19,13 @@ public class RectanglePatter {
 		nForest(n);
 	}
 }
+
+//
+//
+//* * * * * 
+//* * * * * 
+//* * * * * 
+//* * * * * 
+//* * * * * 
+//
+
